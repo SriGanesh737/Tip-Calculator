@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <link rel="stylesheet" href="./syle.css">
+
+  <title>Frontend Mentor | Tip calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <p class="spli">SPLI</p>
+  <P class="tter">TTER</P>
+
+<div class=" row main">
+
+  <div class="left  col-lg-6">
+        <p class="bill">Bill</p>
+        <div class="billinputbox">
+          <img class="leftimgs dollar" src="./images/icon-dollar.svg" alt="dollarsym">
+          <input type="text" id="Bill" placeholder="0">
+        </div>
+
+        <p class="selecttip">Select Tip %</p>
+        <div class="row">
+          <div class=" col-lg-4"><button class="tip btn btn-lg btn-dark">5%</button></div>
+          <div class=" col-lg-4"><button class="tip btn btn-lg btn-dark">10%</button></div>
+          <div class=" col-lg-4"><button class="tip btn btn-lg btn-dark">15%</button></div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4"><button class="tip btn btn-lg btn-dark">25%</button></div>
+          <div class="col-lg-4"><button class="tip btn btn-lg btn-dark">50%</button></div>
+          <div class="col-lg-4"><input type="text" class="btn btn-lg btn-light custom" placeholder="Custom"></div>
+        </div>
+
+        <div class="notzero">
+          <p class="numberpeople">Number of People</p>
+           <p class="zeropeople">Can't be zero</p>
+        </div>
+        <div class="peoples">
+          <img class="leftimgs man" src="./images/icon-person.svg" alt="person">
+        <input type="text" id="PeopleCount" placeholder="0">
+        </div>
+
+  </div>
+
+
+  <div class=" col-lg-6 right">
+      <div class="row">
+        <div class="col righttip">
+          <p class="tipAmount">
+            Tip Amount
+          </p>
+
+          <p class="person">
+            / person
+          </p>
+        </div>
+        <div class="col right1">
+          <img class="rightdollar" src="./images/icon-dollar.svg" alt="dollar">
+          <span id="tipAmount" class="tipdisplay">0.00</span>
+        </div>
+      </div>
+
+      <div class="row right2row">
+        <div class="col total ">
+          <p class="displayTip">
+            Total
+          </p>
+
+          <p class="person">
+            / person
+          </p>
+        </div>
+        <div class="col right2">
+          <img class="rightdollar" src="./images/icon-dollar.svg" alt="dollar">
+          <span id="totalamount" class="tipdisplay">0.00</span>
+        </div>
+      </div>
+
+      <button class="btn btn-light reset">Reset</button>
+  </div>
+
+  </div>
+
+
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+<script src="./script.js"></script>
+</html>

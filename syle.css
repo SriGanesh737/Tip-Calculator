@@ -1,0 +1,172 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&family=Ubuntu&display=swap');
+
+:root{
+    --strongCyan: hsl(172, 67%, 45%);
+    --veryDarkCyan: hsl(183, 100%, 15%);
+    --darkGrayishCyan: hsl(186, 14%, 43%);
+    --grayishCyan: hsl(184, 14%, 56%);
+    --lightGrayishCyan: hsl(185, 41%, 84%);
+    --veryLightGrayishCyan: hsl(189, 41%, 97%);
+}
+
+body{
+    background-color: var(--lightGrayishCyan);
+    text-align: center;
+    color: var(--veryDarkCyan);
+    font-family: 'Space Mono',sans-serif;
+    padding-top: 5rem;
+}
+
+.spli,.tter
+{
+    margin-bottom: 0;
+    letter-spacing: 4px;
+    font-size: 24px;
+}
+
+.main
+{
+    margin: auto;
+    display: flex;
+    background-color: white;
+    width: 55rem;
+    height: 30rem;
+    border-radius: 20px;
+    padding: 30px 30px;
+    margin-top: 4rem;
+}
+
+.left
+{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-right: 25px;
+}
+.right
+{
+    background-color: var(--veryDarkCyan);
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    color: white;
+    border-radius: 20px;
+    padding: 2rem 2.5rem;
+    padding-top: 4rem;
+}
+.billinputbox,.peoples{
+    display: flex;
+    align-items: center;
+}
+.billinputbox,.peoples,.bill,.numberpeople,.selecttip
+{
+    align-self: flex-start;
+}
+
+.dollar,.man{
+    position: relative;
+    left: 25px;
+}
+
+.leftimgs
+{
+    max-height: 1.2rem;
+}
+
+.person{
+    left: 24.5rem;
+    top: 32.5rem;
+}
+
+#Bill,#PeopleCount
+{
+     text-indent: 5%;
+    font-size: 1.5rem;
+    margin-left: 2%;
+    border: none;
+    background-color: var(--veryLightGrayishCyan);
+    direction: rtl;
+    width: 350px;
+    height: 40px;
+    border-radius: 7px;
+}
+
+#Bill:focus{
+    border: 2px solid red;
+}
+
+
+.selecttip,.numberpeople{
+    margin-top: 2.5rem;
+}
+.row
+{
+    padding-bottom: 15px;
+}
+
+.btn
+{
+    width: 96%;
+    margin: 1%;
+    background-color: var(--veryDarkCyan);
+    cursor: pointer;
+    font-size: 19px;
+}
+
+.btn:hover{
+    background-color: var(--lightGrayishCyan);
+    color: var(--veryDarkCyan);
+}
+.btn:focus{
+    background-color: var(--strongCyan);
+    box-shadow: none;
+}
+
+.custom{
+    background-color: white;
+    color: var(--veryDarkCyan);
+}
+
+.notzero
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.zeropeople
+{
+    font-size: 14px;
+    color: orangered;
+    visibility: hidden;
+}
+
+.right2row
+{
+    margin: 2.5rem 0;
+}
+
+.righttip,.total{
+    text-align: start;
+}
+
+.rightdollar
+{
+    height: 30px;
+    color: var(--strongCyan);
+}
+.right1,.right2
+{
+    display: flex;
+    font-size: 40px;
+    align-items: center;
+    justify-content: flex-end;
+    color: var(--strongCyan);
+}
+.reset
+{
+    background-color: var(--lightGrayishCyan);
+}
+
+
